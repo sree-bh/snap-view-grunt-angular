@@ -1,0 +1,11 @@
+{
+	"globals": { // Global variables.
+		"jasmine": true,
+		"angular": true,
+		"by":true,
+		"io":true,
+		"_":true,
+		"$":true
+	},
+	"validthis": false
+}
