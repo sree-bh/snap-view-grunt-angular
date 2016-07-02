@@ -1,0 +1,15 @@
+{
+  "name": "SnapView-Grunt",
+  "version": "1.0.0",
+  "description": "An angular snap view using grunt",
+  "author": "Sree-Bh>",
+  "contributors": [
+    {
+      "name": "Sritama B",
+      "email": "sritama.imps99@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "angular": "~1.2.3"
+  }
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<link rel="icon" href="icons/snaPView.png" type="image/png"/>
+	<link rel="stylesheet" href="css/app.css"/>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/libs.js"></script>
+	<script type="text/javascript" src="js/app.min.js"></script>
+	<title>snaPView</title>
+</head>
+<body class="flex-container" data-ng-app="snView" data-ng-controller="snController as snapCtrl">
+	<header class="flex-item">
+		<h3>snaPView</h3>
+	</header>
+	<section class="flex-item">
+	    <div data-snap-viewer data-sn-data="snapCtrl.snapList"></div>
+	</section>
+	<footer class="flex-item">© sb-2016</footer>
+</body>
+</html>
